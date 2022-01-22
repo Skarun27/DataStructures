@@ -60,3 +60,4 @@ Another Approach: Store elements in LinkedList and store each node of linkedList
 to be removed, we directly go to that node by getting node from the map. Map needs to be TreeMap so that max element
 Node always remains the first entry in the map.
  */
+
