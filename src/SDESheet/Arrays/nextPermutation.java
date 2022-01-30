@@ -1,5 +1,5 @@
 package SDESheet.Arrays;
-
+//LeetCode: https://leetcode.com/problems/next-permutation/
 public class nextPermutation {
     public static void nextPermutation(int[] nums) {
         int i = nums.length - 2;
