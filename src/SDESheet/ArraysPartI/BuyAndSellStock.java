@@ -1,4 +1,4 @@
-package SDESheet.Arrays;
+package SDESheet.ArraysPartI;
 // LeetCode: #121 | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 public class BuyAndSellStock {

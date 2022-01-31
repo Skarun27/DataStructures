@@ -1,4 +1,4 @@
-package SDESheet.Arrays;
+package SDESheet.ArraysPartI;
 //LeetCode: https://leetcode.com/problems/pascals-triangle/
 import java.util.ArrayList;
 import java.util.List;

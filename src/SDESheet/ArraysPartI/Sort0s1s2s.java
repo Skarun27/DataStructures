@@ -1,4 +1,4 @@
-package SDESheet.Arrays;
+package SDESheet.ArraysPartI;
 // Variation of Dutch National Flag Algorithm.
 // LeetCode: https://leetcode.com/problems/maximum-subarray/
 public class Sort0s1s2s {

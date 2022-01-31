@@ -1,4 +1,4 @@
-package SDESheet.Arrays;
+package SDESheet.ArraysPartI;
 // LeetCode: https://leetcode.com/problems/set-matrix-zeroes/
 class SetMatrixZeroes {
     public static void setZeroes(int[][] matrix) {

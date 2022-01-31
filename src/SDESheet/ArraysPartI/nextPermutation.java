@@ -1,4 +1,4 @@
-package SDESheet.Arrays;
+package SDESheet.ArraysPartI;
 //LeetCode: https://leetcode.com/problems/next-permutation/
 public class nextPermutation {
     public static void nextPermutation(int[] nums) {
