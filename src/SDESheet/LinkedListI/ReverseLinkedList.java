@@ -30,7 +30,7 @@ public class ReverseLinkedList {
     }
 
     //Definition for singly-linked list.
-     public class ListNode {
+     private class ListNode {
         int val;
         ListNode next;
         ListNode() {}
