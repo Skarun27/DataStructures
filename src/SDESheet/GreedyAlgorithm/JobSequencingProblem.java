@@ -8,15 +8,15 @@ public class JobSequencingProblem {
         // Your code here
         Arrays.sort(arr, (Job a, Job b) -> b.profit - a.profit);
         int maxDeadline = 0;
+
         for(int i=0; i<n; i++) {
             maxDeadline = Math.max(arr[i].deadline, maxDeadline);
         }
 
         int[] jobQueue = new int[maxDeadline];
-
         int[] res = new int[2];
-        for(int i=0; i<n; i++) {
 
+        for(int i=0; i<n; i++) {
             int ind = arr[i].deadline - 1;
             while(ind >= 0 && jobQueue[ind] != 0) {
                 ind--;
@@ -27,6 +27,7 @@ public class JobSequencingProblem {
                 res[0]++;
             }
         }
+
         return res;
     }
 
