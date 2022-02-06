@@ -1,8 +1,8 @@
-package SDESheet;
+package SDESheet.GreedyAlgorithm;
 
 import java.util.Arrays;
 
-public class GreedyAlgorithm {
+public class NMeetingsInOneRoom {
     public static int maxMeetings(int start[], int end[], int n)
     {
         // add your code here
