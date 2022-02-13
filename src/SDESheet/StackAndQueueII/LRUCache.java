@@ -19,7 +19,7 @@ class LRUCache {
         tail.pre = head;
     }
 
-    static class DLinkedList {
+    private static class DLinkedList {
         int key;
         int value;
         DLinkedList pre;
@@ -82,7 +82,7 @@ class LRUCache {
 
             if(count > capacity) {
                 DLinkedList node = this.popTail();
-                map.remove(node.value);
+                map.remove(node.key);
                 --count;
             }
         }
