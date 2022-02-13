@@ -1,10 +1,10 @@
-package SDESheet;
+package SDESheet.StackAndQueueII;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class StackAndQueueII {
+public class NextSmallerElement {
     public static ArrayList<Integer> prevSmaller(ArrayList<Integer> A) {
         ArrayList<Integer> res = new ArrayList();
         Stack<Integer> stack = new Stack();
