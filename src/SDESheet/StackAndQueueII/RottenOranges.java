@@ -10,8 +10,6 @@ public class RottenOranges {
         int cols = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
         int count_fresh = 0;
-        //Put the position of all rotten oranges in queue
-        //count the number of fresh oranges
         for(int i = 0 ; i < rows ; i++) {
             for(int j = 0 ; j < cols ; j++) {
                 if(grid[i][j] == 2) {
