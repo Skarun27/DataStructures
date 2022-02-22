@@ -18,6 +18,7 @@ public class MaxWidthOfBT {
         int ans = 0;
         Queue<Pair> q = new LinkedList<>();
         q.offer(new Pair(root, 0));
+
         while(!q.isEmpty()){
             int size = q.size();
             int mmin = q.peek().num;    //to make the id starting from zero
