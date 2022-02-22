@@ -1,11 +1,11 @@
-package SDESheet;
+package SDESheet.BinaryTreeII;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BinaryTreeII {
+public class LevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
 
         Queue<TreeNode> q = new LinkedList<>();
