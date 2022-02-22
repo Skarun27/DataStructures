@@ -1,6 +1,6 @@
 package SDESheet.BinaryTreeII;
 
-public class MaxDepthOfBT {
+public class HeightOfBT {
     public int maxDepth(TreeNode root) {
         return depth(root);
     }
