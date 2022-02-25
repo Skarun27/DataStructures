@@ -1,8 +1,11 @@
 package SDESheet.BinaryTreeIII;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class BTFromPreOrderAndInOrder {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        Map < Integer, Integer > inMap = new HashMap < Integer, Integer > ();
+        Map< Integer, Integer > inMap = new HashMap< Integer, Integer >();
 
         for (int i = 0; i < inorder.length; i++) {
             inMap.put(inorder[i], i);
@@ -29,7 +32,7 @@ public class BTFromPreOrderAndInOrder {
         return root;
     }
 
-    private class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
