@@ -27,12 +27,17 @@ public class PredecessorAndSuccessor {
     }
 
     private static class Node {
-        int val;
+        int data;
         Node left;
         Node right;
 
         Node(int val) {
-            this.val = val;
+            this.data = val;
         }
+    }
+
+    private static class Res {
+        Node pre;
+        Node succ;
     }
 }
