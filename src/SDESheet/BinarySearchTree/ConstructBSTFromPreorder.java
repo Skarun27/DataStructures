@@ -1,17 +1,16 @@
 package SDESheet.BinarySearchTree;
 
 public class ConstructBSTFromPreorder {
-    public TreeNode sortedArrayToBST(int[] nums) {
-        return preOrder(0, nums.length - 1, nums);
+    public TreeNode bstFromPreorder(int[] preorder) {
+        return preOrder(preorder, Integer.MAX_VALUE, new int[]{0});
     }
 
-    public TreeNode preOrder(int left, int right, int[] nums) {
-        if(left > right) return null;
-        int mid = left + (right - left)/2;
-        TreeNode root = new TreeNode(nums[mid]);
-        root.left = preOrder(left, mid-1, nums);
-        root.right = preOrder(mid+1, right, nums);
-        return root;
+    public TreeNode preOrder(int[] preorder, int bound, int[] nums) {
+        if(nums[0] == preorder.length || preorder[nums[0]] > bound) return null;
+        TreeNode node = new TreeNode(preorder[nums[0]++]);
+        node.left = preOrder(preorder, node.val, nums);
+        node.right = preOrder(preorder, bound, nums);
+        return node;
     }
     private static class TreeNode {
         int val;
