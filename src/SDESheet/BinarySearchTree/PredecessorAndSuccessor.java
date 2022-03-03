@@ -3,7 +3,6 @@ package SDESheet.BinarySearchTree;
 public class PredecessorAndSuccessor {
     public static void findPreSuc(Node root, Res p, Res s, int key)
     {
-        // add your code here
         if(root == null) return;
         Node node = root;
         while(node != null) {
@@ -14,7 +13,6 @@ public class PredecessorAndSuccessor {
             else
                 node = node.right;
         }
-
         node = root;
         while(node != null) {
             if(node.data < key) {
