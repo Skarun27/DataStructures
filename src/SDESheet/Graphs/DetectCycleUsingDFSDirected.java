@@ -3,7 +3,7 @@ package SDESheet.Graphs;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class DetectCycleUsingDFS {
+public class DetectCycleUsingDFSDirected {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
 
         // course -> list of next courses
