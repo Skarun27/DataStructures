@@ -1,5 +1,3 @@
-package Test;
-
 public class DesignHashMap {
     final ListNode[] nodes = new ListNode[10000];
 
