@@ -1,5 +1,3 @@
-package SDESheet;
-
 import java.io.IOException;
 
 public class URLShortner {
