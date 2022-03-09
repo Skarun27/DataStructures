@@ -13,7 +13,7 @@ public class SubsetSums {
     }
 
     static void recursiveSum(ArrayList<Integer> arr,
-                      int ind, int sum, int N, ArrayList<Integer> list) {
+        int ind, int sum, int N, ArrayList<Integer> list) {
         if(ind == N) {
             list.add(sum);
             return;

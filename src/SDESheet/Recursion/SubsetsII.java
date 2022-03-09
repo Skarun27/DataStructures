@@ -8,17 +8,16 @@ public class SubsetsII {
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> subsetList = new ArrayList<>();
-        List<Integer> subset = new ArrayList<>();
-        subsets(0, subset, subsetList, nums.length, nums);
+        subsets(0, new ArrayList<>(), subsetList, nums);
         return subsetList;
     }
 
-    static void subsets(int ind, List<Integer> subset, List<List<Integer>> subsetList, int N, int[] nums) {
+    static void subsets(int ind, List<Integer> subset, List<List<Integer>> subsetList, int[] nums) {
         subsetList.add(new ArrayList<>(subset));
         for(int i=ind; i<nums.length; i++) {
             if(i != ind && nums[i] == nums[i-1]) continue;
             subset.add(nums[i]);
-            subsets(i+1, subset, subsetList, N, nums);
+            subsets(i+1, subset, subsetList, nums);
             subset.remove(subset.size() - 1);
         }
     }

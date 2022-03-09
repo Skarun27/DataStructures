@@ -8,10 +8,10 @@ public class VerticalOrderTraversal {
         TreeNode node;
         int row;
         int col;
-        public Pair(TreeNode node, int row, int col){
+        public Pair(TreeNode node, int rowNum, int colNum){
             this.node = node;
-            this.row = row;
-            this.col = col;
+            this.row = rowNum;
+            this.col = colNum;
         }
     }
 
