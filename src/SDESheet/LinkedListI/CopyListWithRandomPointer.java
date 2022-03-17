@@ -1,3 +1,5 @@
+package SDESheet.LinkedListI;
+
 public class CopyListWithRandomPointer {
 
     public Node copyRandomList(Node head) {
