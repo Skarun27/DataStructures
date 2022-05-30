@@ -1,3 +1,4 @@
+package InterviewQuestions;
 import java.util.*;
 
 class UniversityCareer {

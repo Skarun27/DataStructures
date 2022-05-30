@@ -1,3 +1,4 @@
+package InterviewQuestions;
 public class ProductOfArrayExceptSelf {
 
     public int[] productExceptSelf(int[] nums) {

@@ -1,3 +1,4 @@
+package InterviewQuestions;
 public class FindPeakElement {
 
     public static int findPeakElement(int[] nums) {
