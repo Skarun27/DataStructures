@@ -5,7 +5,6 @@ public class CoinChange {
     public int coinChange(int[] coins, int amount) {
         
         if(amount < 1) return 0;
-        int n = coins.length;
         int[] count = new int[amount];
         return countChange(coins, amount, count);
     }
