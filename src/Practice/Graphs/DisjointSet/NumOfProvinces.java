@@ -1,4 +1,4 @@
-package Practice.Graphs;
+package Practice.Graphs.DisjointSet;
 
 public class NumOfProvinces {
     public int findCircleNum(int[][] isConnected) {
