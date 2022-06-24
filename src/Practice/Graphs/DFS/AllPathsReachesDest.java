@@ -1,7 +1,7 @@
 package Practice.Graphs.DFS;
 import java.util.*;
 
-public class AllPaths {
+public class AllPathsReachesDest {
     boolean[] isVisited;
     public boolean leadsToDestination(int n, int[][] edges, int source, int destination) {
         isVisited = new boolean[n];
