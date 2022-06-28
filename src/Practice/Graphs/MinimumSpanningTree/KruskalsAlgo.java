@@ -1,9 +1,9 @@
-package Practice.Graphs.MSTKruskalsAlgo;
+package Practice.Graphs.MinimumSpanningTree;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class MinCostToConnectAllPoints {
+public class KruskalsAlgo {
     public int minCostConnectPoints(int[][] points) {
         int n = points.length;
         ArrayList<int[]> allEdges = new ArrayList<>();

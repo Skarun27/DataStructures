@@ -1,8 +1,8 @@
-package Practice.Graphs.MSTPrimsAlgo;
+package Practice.Graphs.MinimumSpanningTree;
 
 import java.util.PriorityQueue;
 
-public class MinCostToConnectAllPoints {
+public class PrimsAlgo {
     public int minCostConnectPoints(int[][] points) {
         if (points == null || points.length == 0) {
             return 0;
