@@ -1,5 +1,6 @@
 package Practice.Graphs.SingleSourceShortestPath.DijkstrasAlgo;
 import java.util.*;
+import javafx.util.Pair;
 
 public class NetworkDelayTime {
     Map<Integer, List<Pair<Integer, Integer>>> adj = new HashMap<>();
