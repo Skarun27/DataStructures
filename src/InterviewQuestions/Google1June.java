@@ -1,6 +1,6 @@
 package InterviewQuestions;
 
-public class Google1 {
+public class Google1June {
     // Java to find largest number with
 // given conditions.
 

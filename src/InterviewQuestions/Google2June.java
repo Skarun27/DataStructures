@@ -1,9 +1,8 @@
 package InterviewQuestions;
 
-import java.util.Arrays;
 import java.util.HashSet;
 
-public class Google2 {
+public class Google2June {
     
     public static int uniqueArr(int[] arr) {
         HashSet<Integer> set = new HashSet<>();
