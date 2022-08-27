@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class MaxSumCircularSubArray {
     public int maxSubarraySumCircular(int[] A) {

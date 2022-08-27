@@ -1,4 +1,4 @@
-package Practice.Graphs.DFS;
+package Topics.Graphs.DFS;
 
 public class DetonateMaxBombs {
     public int maximumDetonation(int[][] bombs) {

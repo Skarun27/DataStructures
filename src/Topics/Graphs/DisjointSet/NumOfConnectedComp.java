@@ -1,3 +1,4 @@
+package Topics.Graphs.DisjointSet;
 //package Practice.Graphs.DisjointSet;
 //
 //public class NumOfConnectedComp {

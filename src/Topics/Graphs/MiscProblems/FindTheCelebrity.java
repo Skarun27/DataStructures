@@ -1,3 +1,4 @@
+package Topics.Graphs.MiscProblems;
 // package Practice.Graphs.MiscProblems;
 
 // public class FindTheCelebrity {

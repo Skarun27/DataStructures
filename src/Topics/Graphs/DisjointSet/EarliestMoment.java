@@ -1,4 +1,4 @@
-package Practice.Graphs.DisjointSet;
+package Topics.Graphs.DisjointSet;
 
 import java.util.Arrays;
 import java.util.Comparator;

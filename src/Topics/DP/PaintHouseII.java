@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class PaintHouseII {
     public int minCostII(int[][] costs) {

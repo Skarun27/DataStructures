@@ -1,4 +1,4 @@
-package Practice.Graphs.MinimumSpanningTree;
+package Topics.Graphs.MinimumSpanningTree;
 
 import java.util.PriorityQueue;
 

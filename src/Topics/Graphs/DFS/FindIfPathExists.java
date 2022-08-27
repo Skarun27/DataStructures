@@ -1,4 +1,4 @@
-package Practice.Graphs.DFS;
+package Topics.Graphs.DFS;
 
 import java.util.ArrayList;
 import java.util.HashMap;

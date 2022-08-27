@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 class MaxScoreFromMult {
         

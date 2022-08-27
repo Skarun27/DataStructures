@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class NumberOfDiceRolls {
     public int numRollsToTarget(int n, int k, int target) {

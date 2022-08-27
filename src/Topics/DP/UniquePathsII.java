@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class UniquePathsII {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {

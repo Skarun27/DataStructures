@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class OutOfBoundaryPaths {
     public int findPaths(int m, int n, int N, int x, int y) {

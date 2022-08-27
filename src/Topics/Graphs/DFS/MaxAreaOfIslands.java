@@ -1,4 +1,4 @@
-package Practice.Graphs.DFS;
+package Topics.Graphs.DFS;
 
 public class MaxAreaOfIslands {
     public int maxAreaOfIsland(int[][] grid) {

@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class CoinChangeII {
     public static int change(int amount, int[] coins) {

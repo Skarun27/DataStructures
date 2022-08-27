@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class LongestCommonSubsequence {
     private int[][] memo;

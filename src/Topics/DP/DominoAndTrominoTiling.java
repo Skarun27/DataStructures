@@ -1,4 +1,4 @@
-package Practice.DP;
+package Topics.DP;
 
 public class DominoAndTrominoTiling {
     public int numTilings(int n) {
